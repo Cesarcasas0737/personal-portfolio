@@ -219,12 +219,18 @@ header {
   display: flex;
   align-self: center;
   background-color: var(--background-color-2);
-  height: 500px;
-  width: 100px;
+  height: 150px;
+  width: 600px;
+  margin-top: 180px;
   border-radius: 5px;
   z-index: 1;
 }
 
+@media (max-width: 1200px) {
+  header {
+    width: clamp(400px, 80%, 600px);
+  }
+}
 @media (max-width: 479px) {
   header {
     height: 700px;
