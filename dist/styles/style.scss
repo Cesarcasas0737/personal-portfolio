@@ -1,5 +1,6 @@
 @import "./variables";
 @import "./decorative-background";
+@import "./header";
 
 * {
     margin: 0;
@@ -10,5 +11,5 @@
 body{
     display: flex;
     flex-direction: column;
-    background-color: white;
+    background-color: var(--background-color-3);
 }

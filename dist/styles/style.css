@@ -33,6 +33,7 @@
   --color-subtitle: #f9004d;
   --background-color-1: linear-gradient(145deg, #1e2024, #23272b);
   --background-color-2: #212428;
+  --background-color-3: #1d1e24;
   --shadow-1: 10px 10px 19px #1c1e22,
       -10px -10px 19px #262a2e;
   --shadow-2: inset 21px 21px 19px #181a1d, inset -21px -21px 19px #202225;
@@ -131,6 +132,7 @@
   --color-subtitle: #f9004d;
   --background-color-1: linear-gradient(145deg, #1e2024, #23272b);
   --background-color-2: #212428;
+  --background-color-3: #1d1e24;
   --shadow-1: 10px 10px 19px #1c1e22,
       -10px -10px 19px #262a2e;
   --shadow-2: inset 21px 21px 19px #181a1d, inset -21px -21px 19px #202225;
@@ -205,11 +207,29 @@
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
+  z-index: 0;
 }
 
 @media (max-width: 479px) {
   .decorative-background {
     height: 200px;
+  }
+}
+header {
+  display: flex;
+  align-self: center;
+  background-color: var(--background-color-2);
+  height: 500px;
+  width: 100px;
+  border-radius: 5px;
+  z-index: 1;
+}
+
+@media (max-width: 479px) {
+  header {
+    height: 700px;
+    width: 90%;
+    margin-top: 140px;
   }
 }
 * {
@@ -221,5 +241,5 @@
 body {
   display: flex;
   flex-direction: column;
-  background-color: white;
+  background-color: var(--background-color-3);
 }/*# sourceMappingURL=style.css.map */

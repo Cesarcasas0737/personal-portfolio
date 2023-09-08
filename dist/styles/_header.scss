@@ -1,0 +1,19 @@
+header{
+    display: flex;
+    align-self: center;
+    background-color: var(--background-color-2);
+    height: 500px;
+    width: 100px;
+
+    border-radius: 5px;
+    z-index: 1;
+}
+
+@media (max-width: 479px){
+    header{
+        height: 700px;
+        width: 90%;
+        margin-top: 140px;
+        
+    }
+}
