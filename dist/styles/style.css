@@ -203,7 +203,7 @@
   position: absolute;
   background-image: url(../media/san-francisco.jpg);
   width: 100%;
-  height: 225px;
+  height: 350px;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
@@ -217,9 +217,10 @@
 }
 header {
   display: flex;
+  flex-direction: row;
   align-self: center;
   background-color: var(--background-color-2);
-  height: 150px;
+  height: 240px;
   width: 600px;
   margin-top: 180px;
   border-radius: 5px;
@@ -233,11 +234,38 @@ header {
 }
 @media (max-width: 479px) {
   header {
+    display: flex;
+    flex-direction: column;
     height: 700px;
     width: 90%;
     margin-top: 140px;
+    align-items: center;
+  }
+  .header-left {
+    display: flex;
+    flex-direction: column;
   }
 }
+.header-left {
+  display: flex;
+  flex-direction: row;
+}
+
+.header-thumbnail {
+  width: 200px;
+  height: 200px;
+  transform: translateY(-50px);
+  overflow: hidden;
+  border-radius: 15px;
+  border: 5px solid var(--background-color-3);
+}
+.header-thumbnail img {
+  height: 200px;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
 * {
   margin: 0;
   padding: 0;
