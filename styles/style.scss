@@ -8,6 +8,10 @@
     font-family: var(--font-primary);
 }
 
+li {
+    list-style: none;
+}
+
 body{
     display: flex;
     flex-direction: column;
