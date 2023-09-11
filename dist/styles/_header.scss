@@ -15,7 +15,8 @@ header{
     flex-direction: row;
     
     .header-info-content{
-        padding: 20px;
+        border-right: 1px solid rgba(0, 0, 0,.8);
+        margin: 20px;
         h4{
             color: var(--color-secondary);
             font-size: var(--h4);
@@ -25,6 +26,11 @@ header{
             color: var(--color-body);
         }
     }
+}
+
+.header-right{
+    padding-top: 20px;
+    padding-right: 0px;
     
 }
 
@@ -58,7 +64,7 @@ header{
 
 }
 
-@media (max-width: 479px){
+@media (max-width: 500px){
     header{
         display: flex;
         flex-direction: column;
@@ -67,14 +73,29 @@ header{
         margin-top: 140px;
         align-items: center;
     }
+
     .header-left{
         display: flex;
         flex-direction: column;
         align-items: center;
-    
     }
+
+    .header-info-content{
+        border-right: 0px solid rgba(0, 0, 0,.5) !important;
+    }
+
+    .share-socials{
+        
+        border-bottom: 2px solid rgba(0, 0, 0,.8);
+    }
+
     .header-thumbnail{
         padding-left: 0px;
+    }
+
+    .header-right{
+        align-self: flex-start;
+        padding-left: 20px;
     }
 }
 
