@@ -14,11 +14,35 @@ header{
     display: flex;
     flex-direction: row;
     
-    h4{
-        color: var(--color-secondary);
+    .header-info-content{
+        padding: 20px;
+        h4{
+            color: var(--color-secondary);
+            font-size: var(--h4);
+            
+        }
+        .status-info{
+            color: var(--color-body);
+        }
     }
-    .status-info{
-        color: var(--color-body);
+    
+}
+
+.header-thumbnail{
+    width: 200px;
+    height: 200px;
+
+    
+    transform: translateY(-50px);
+    
+    padding-left: 30px;
+    img{
+        
+        height: 200px;
+        width: 100%;
+        border-radius: 15px;
+        border: 5px solid var(--background-color-3);
+        object-fit: cover;
     }
 }
 
@@ -29,8 +53,9 @@ header{
     .header-left{
         display: flex;
         flex-direction: row;
-    
+        
     }
+
 }
 
 @media (max-width: 479px){
@@ -48,18 +73,8 @@ header{
         align-items: center;
     
     }
-}
-
-.header-thumbnail{
-    width: 200px;
-    height: 200px;
-    transform: translateY(-50px);
-    overflow: hidden;
-    border-radius: 15px;
-    border: 5px solid var(--background-color-3);
-    img{
-        height: 200px;
-        width: 100%;
-        object-fit: cover;
+    .header-thumbnail{
+        padding-left: 0px;
     }
 }
+
