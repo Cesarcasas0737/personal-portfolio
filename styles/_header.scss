@@ -118,6 +118,13 @@ header{
         display: flex;
         flex-direction: column;
         align-items: center;
+
+        h4{
+            font-size: var(--h4) !important;
+        }
+        .status-info{
+            font-size: 20px !important;
+        }
     }
 
     .header-info-content{
@@ -141,6 +148,7 @@ header{
         
         li{
             padding-top: 20px;
+            font-size: 25px;
         }
     }
 }
