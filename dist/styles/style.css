@@ -227,6 +227,11 @@ header {
   z-index: 1;
 }
 
+.icon {
+  width: 25px;
+  height: 25px;
+}
+
 .header-left {
   display: flex;
   flex-direction: row;
@@ -241,6 +246,11 @@ header {
 }
 .header-left .header-info-content .status-info {
   color: var(--color-body);
+}
+.header-left .share-socials {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
 }
 
 .header-right {
