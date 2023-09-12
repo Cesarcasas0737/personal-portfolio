@@ -9,7 +9,10 @@ header{
     border-radius: 5px;
     z-index: 1;
 }
-
+.icon{
+    width: 25px;
+    height: 25px;
+}
 .header-left{
     display: flex;
     flex-direction: row;
@@ -24,6 +27,11 @@ header{
         .status-info{
             color: var(--color-body);
         }
+    }
+    .share-socials{
+        display: flex;
+        flex-direction: row;
+        gap: 10px;
     }
 }
 
