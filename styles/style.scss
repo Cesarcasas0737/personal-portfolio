@@ -40,8 +40,23 @@ body{
 }
 
 @media (max-width: 500px){
+    
     .nav-content-wrapper{
+        display: flex;
+        flex-direction: column;
         width: 90%;
-        
+         
     }
+    nav{
+        display: flex;
+        flex-direction: row;
+        align-self: center;
+        height: 60px;
+        width: 100%;
+        gap: 10px;
+        button{
+            height: 100%;
+        }
+    }
+    
 }
