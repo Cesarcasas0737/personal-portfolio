@@ -1,6 +1,9 @@
 @import "./variables";
 @import "./decorative-background";
 @import "./header";
+@import "./navbar";
+@import "./main";
+
 
 * {
     margin: 0;
@@ -16,4 +19,13 @@ body{
     display: flex;
     flex-direction: column;
     background-color: var(--background-color-3);
+}
+
+.nav-content-wrapper{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+    padding-top: 20px;
+    gap: 10px;
 }
