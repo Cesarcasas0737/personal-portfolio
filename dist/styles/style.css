@@ -221,7 +221,7 @@ header {
   align-self: center;
   background-color: var(--background-color-2);
   height: 240px;
-  width: clamp(800px, 80%, 800px);
+  width: 800px;
   margin-top: 200px;
   border-radius: 5px;
   z-index: 1;
