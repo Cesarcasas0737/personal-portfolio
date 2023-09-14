@@ -417,6 +417,9 @@ main .tech-icon {
   flex-direction: column;
   align-items: center;
 }
+main .tech-icon p {
+  color: var(--color-secondary);
+}
 main img {
   width: 75px;
   height: 75px;
