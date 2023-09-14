@@ -370,10 +370,16 @@ nav button {
   border-radius: 5px;
   background-color: var(--background-color-2);
   border: none;
+  font-size: 14px;
   transition: background-color 0.3s ease;
 }
 nav button:hover {
   background-color: var(--color-primary);
+}
+@media (max-width: 500px) {
+  nav button {
+    font-size: 30px;
+  }
 }
 
 main {
