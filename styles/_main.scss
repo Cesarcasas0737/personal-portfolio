@@ -30,6 +30,9 @@ main{
         justify-content: space-around;
         padding-top: 10px;
     }
+    .skills-wrapper:nth-of-type(3) {
+        padding-bottom: 50px;
+      }
     .tech-icon{
         display: flex;
         flex-direction: column;

@@ -414,6 +414,9 @@ main .skills-wrapper {
   justify-content: space-around;
   padding-top: 10px;
 }
+main .skills-wrapper:nth-of-type(3) {
+  padding-bottom: 50px;
+}
 main .tech-icon {
   display: flex;
   flex-direction: column;
