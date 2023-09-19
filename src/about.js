@@ -51,6 +51,7 @@ function createAbout() {
                     <p>Webpack</p>
                 </div>
             </div>
+            
   `;
   return about;
 }
