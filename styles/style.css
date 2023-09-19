@@ -376,6 +376,9 @@ nav button {
 nav button:hover {
   background-color: var(--color-primary);
 }
+nav .active {
+  background-color: var(--color-primary);
+}
 @media (max-width: 500px) {
   nav button {
     font-size: 30px;
@@ -485,6 +488,7 @@ body {
     display: flex;
     flex-direction: column;
     width: 90%;
+    margin-bottom: 30px;
   }
   nav {
     display: flex;

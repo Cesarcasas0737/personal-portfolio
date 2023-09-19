@@ -24,6 +24,9 @@ nav{
           background-color: var(--color-primary);
         }
     }
+    .active{
+        background-color: var(--color-primary);
+    }
     @media (max-width: 500px){
         button{
             font-size: 30px;
