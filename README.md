@@ -33,7 +33,7 @@ In the [Skills](skills.md) section, you'll find a comprehensive list of the web 
 - CSS3 (Media Queries)
 - Sass (Seperate Code)
 - JavaScript (DOM manipulation)
-- Webpack (organizing JS files )
+- Webpack (organizing JS files)
 - Git (Version Control)
 
 ## Installation
