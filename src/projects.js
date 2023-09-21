@@ -17,9 +17,11 @@ function createProjects() {
                     </div>
                     <div class="button-wrapper">
             
-                            <a href="">Live App</a>
+                            <!--
+                                <a href="">Live App</a>
+                            -->
             
-                            <a href="">Repository</a>
+                            <a href="https://github.com/Cesarcasas0737/weather-app">Repository</a>
             
                     </div>
                 </div>
@@ -35,9 +37,9 @@ function createProjects() {
                     </div>
                     <div class="button-wrapper">
             
-                            <a href="">Live App</a>
+                            <a href="https://cesarcasas0737.github.io/admin-dashboard/">Live App</a>
             
-                            <a href="">Repository</a>
+                            <a href="https://github.com/Cesarcasas0737/admin-dashboard">Repository</a>
             
                     </div>
                 </div>
@@ -54,9 +56,9 @@ function createProjects() {
                     </div>
                     <div class="button-wrapper">
             
-                            <a href="">Live App</a>
+                            <a href="https://cesarcasas0737.github.io/sign_up_form/">Live App</a>
             
-                            <a href="">Repository</a>
+                            <a href="https://github.com/Cesarcasas0737/sign_up_form">Repository</a>
             
                     </div>
                 </div>
