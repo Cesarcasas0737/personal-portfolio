@@ -4,6 +4,7 @@
 
 ![Portfolio Screenshot Desktop](./dist/media/personal-port-desk.png)
 ![Portfolio Screenshot Mobile](./dist/media/personal-port-mobile.png)
+
 Welcome to my personal portfolio website! This website showcases my web development projects and highlights my skills as a web developer. I have designed this portfolio with accessibility (WAI-ARIA), responsiveness (media queries), and dynamic content (DOM manipulation) in mind.
 
 ## Table of Contents
@@ -12,9 +13,6 @@ Welcome to my personal portfolio website! This website showcases my web developm
 - [Skills](#skills)
 - [Technologies Used](#technologies-used)
 - [Installation](#installation)
-- [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
 
 ---
 
@@ -28,14 +26,15 @@ Explore a selection of my web development projects in the [Projects](projects.md
 
 ## Skills
 
-In the [Skills](skills.md) section, you'll find a comprehensive list of the web development skills I possess. From front-end to back-end, I have experience in a wide range of technologies and tools.
+In the [Skills](skills.md) section, you'll find a comprehensive list of the web development skills I possess.I have experience in a wide range of technologies and tools.
 
 ## Technologies Used
 
 - HTML5
 - CSS3 (Media Queries)
+- Sass (Seperate Code)
 - JavaScript (DOM manipulation)
-- WAI-ARIA (Web Accessibility)
+- Webpack (organizing JS files )
 - Git (Version Control)
 
 ## Installation
