@@ -3,7 +3,6 @@
 # Personal Portfolio Website
 
 ![Portfolio Screenshot Desktop](./dist/media/personal-port-desk.png)
-![Portfolio Screenshot Mobile](./dist/media/personal-port-mobile.png)
 
 Welcome to my personal portfolio website! This website showcases my web development projects and highlights my skills as a web developer. I have designed this portfolio with accessibility (WAI-ARIA), responsiveness (media queries), and dynamic content (DOM manipulation) in mind.
 
