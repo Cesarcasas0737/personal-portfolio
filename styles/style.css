@@ -493,7 +493,6 @@ main img {
   -o-object-fit: cover;
      object-fit: cover;
   position: relative;
-  background-color: purple;
   height: 300px;
   width: 100%;
   z-index: 1;
