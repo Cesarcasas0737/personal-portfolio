@@ -91,7 +91,6 @@
         .project-preview{
             object-fit: cover;
             position: relative;
-            background-color: purple;
             height: 300px;
             width: 100%;
             z-index: 1;
@@ -103,6 +102,38 @@
         }
         a{
             height: 50px;
+        }
+    }
+}
+
+@media (max-width: 400px){
+    .project-wrapper{
+        height: 300px;
+        width: 95%;
+        .project-details{
+
+            .details-text{
+                p{
+                    font-size: 13px;
+                }
+            }
+        }
+
+
+        .project-preview{
+            object-fit: cover;
+            position: relative;
+            height: 300px;
+            width: 100%;
+            z-index: 1;
+        }
+
+        .button-wrapper{
+            width: 80px;
+            gap: 10px;
+        }
+        a{
+            height: 40px;
         }
     }
 }
